@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-size: 24px;
+}
+
+main {
+    padding: 20px;
+}
+
+.poll-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.vote-btn {
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.vote-count {
+    font-size: 24px;
+}
+
+.winner {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4CAF50;
+}
